@@ -12,7 +12,7 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		var image = $(".background").css('background-image').replace('url(','').replace(')','');
-		$("img").attr('src', image);
+		$("#image").attr('src', image);
 	});
 </script>
 
@@ -23,7 +23,7 @@
 	
 	<div id="content">
 		<h1 id="title" align="center">Blurred Background</h1>
-		<img width="100%"  />
+		<img id="image" width="100%"  />
 		<small>Original Image. Refresh for new image. Images provided by http://lorempixel.com/</small>
 		
 		<p>This code should be pretty easy to use. Just make sure that you have a div that will hold your web page's content after the background div. Check out index.html & stylesheet.css for an example.<br /><br />Enjoy!<br />-<a href="http://rosswaycaster.com">Ross Waycaster</a></p>
